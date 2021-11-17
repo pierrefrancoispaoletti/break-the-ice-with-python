@@ -75,6 +75,11 @@ for words in inp_string:
         out_string.append(words)
 print(" ".join(sorted(out_string)))
 ```
+
+---
+```python
+print(*(sorted(set(input("words ? :").split(" ")))), sep=" ")
+```
 ---
 
 # Question 11
