@@ -306,6 +306,12 @@ lst = [[i*j for j in range(y)] for i in range(x)]
 print(lst)
 ```
 
+```python
+words = input().split(',')
+
+print(*(sorted(x for x in words)), sep=",")
+```
+
 ---
 
 # Question 8
